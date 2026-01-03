@@ -1,0 +1,8 @@
+
+{
+"customerId":3215454,
+"fromAccount":123,
+"toAccount":234,
+"amount":500,
+"currency": "INR"
+}
