@@ -6,3 +6,11 @@
 "amount":500,
 "currency": "INR"
 }
+
+{
+"customerId":321589,
+"fromAccount":234,
+"toAccount":876,
+"amount":800,
+"currency": "INR"
+}
