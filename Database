@@ -1,0 +1,17 @@
+Account entity
+CREATE TABLE account (
+    account_no BIGINT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    account_type VARCHAR(30) NOT NULL,
+    balance DOUBLE NOT NULL
+);
+
+sample data
+INSERT INTO account (account_no,first_name,last_name,account_type,balance) VALUES
+(123, 'Pratik', 'Umap', 'SAVINGS', 15000.00),
+(234, 'Rahul', 'Yadav', 'CURRENT', 25000.50),
+(876, 'Yash', 'Yadav', 'SAVINGS', 5000.75);
+
+
+We also have a transaction entity for storing transactions.
